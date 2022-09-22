@@ -22,3 +22,8 @@ const player3 = new Character(myHalfling.name, myHalfling);
 for (let i = 0; i < getRandomInt(1, 15); i += 1) {
   player1.levelUp();
 }
+
+// create monsters~
+
+const monster1 = new Monster();
+const monster2 = new Dragon();
