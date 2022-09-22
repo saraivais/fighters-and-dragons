@@ -17,3 +17,8 @@ const player2 = new Character(myDwarf.name, myDwarf, myWarrior);
 
 const myHalfling = new Halfling('Hilda Keenbloom', getRandomInt(1, 10));
 const player3 = new Character(myHalfling.name, myHalfling);
+
+// level up my elf~
+for (let i = 0; i < getRandomInt(1, 15); i += 1) {
+  player1.levelUp();
+}
