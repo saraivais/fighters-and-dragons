@@ -27,3 +27,10 @@ for (let i = 0; i < getRandomInt(1, 15); i += 1) {
 
 const monster1 = new Monster();
 const monster2 = new Dragon();
+
+// create PVP~
+const pvp = new PVP(player2, player3);
+
+// create PVE~
+const pve = new PVE(player1, [monster1, monster2]);
+
