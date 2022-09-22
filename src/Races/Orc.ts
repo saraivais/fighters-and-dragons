@@ -6,7 +6,7 @@ class Orc extends Race {
 
   constructor(name: string, dexterity: number) {
     super(name, dexterity);
-    this._maxLifePoints= 74;
+    this._maxLifePoints = 74;
     Orc.instances += 1;
   }
 
